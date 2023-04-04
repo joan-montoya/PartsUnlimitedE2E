@@ -8,7 +8,7 @@ namespace PartsUnlimited.Models
         //mi cambio aqui va
         [Key]
         public int CartItemId { get; set; }
-
+//chanfe
         [Required]
         public string CartId { get; set; }
         public int ProductId { get; set; }
